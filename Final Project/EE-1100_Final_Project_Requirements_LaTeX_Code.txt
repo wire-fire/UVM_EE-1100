@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} % Required for inserting images
+
+\title{EE-1100 Final Project Requirements}
+\author{TAs Jack McTasney and Ian Cassidy}
+\date{Spring 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Project Overview}
+\begin{enumerate}
+    \item Design and build an original, functioning circuit that solves a problem or fulfills a need that aligns with your values!
+    \item You may work in groups of 2-3 or alone, speak with the TAs about your project idea / group and they will advise you on how to proceed.
+    \item The final prototype must contain AT LEAST 3 inputs and 3 outputs. This can be overridden by sufficient project complexity, speak with the TAs if interested.
+    \item Be creative! This is your stage to perform and show off everything you've learned!
+    \item Document, document, document! Make sure you describe your design process as you are figuring out / building your project. People will be very interested to hear about the stages of your project!
+    \item Keep track of your time, make a gannt chart! Some kind of scheduling will go a long way towards finishing your report on time. 
+    \item PLEASE TELL TAs IF YOU HAVE PROBLEMS, ESPECIALLY EARLY ON, there is alot they can do early in your process, but significantly less the day before it is due!
+\end{enumerate}
+\section{Report}
+\begin{enumerate}
+    \item Reference the rubric, this is how you will be graded.
+    \item Include the following sections in your report:
+    \begin{itemize}
+        \item Title Page: Include your project name, group member names (or just your name if working solo), as well as the project working span of dates (ie: 4/7/25 -> 5/5/25) and the date of submission.
+        \item Abstract: Summarize your results in a BRIEF paragraph. If using overleaf/LaTeX, use the built-in Abstract section.
+        \item Table of Contents: ToC of the sections in your report (with corresponding page numbers). LaTeX has a REALLY good built in method for this.
+        \item Introduction: Describe your project at a high level and provide some background information.
+        \item System Diagram: Digitally drawn high-level diagram of your system. Show your inputs and outputs and how they correspond to the parts of your project. Using a block diagram is a good idea here.
+        \item Plan: How did you schedule your time? What was your budget? What parts did you use and why?
+        \item Process: What was your design/prototyping process? How well was your plan executed?
+        \item Results: Show off your prototype.  Provide data showing that it does what you want it to do. Talk about specifications relevant to the prototype's purpose.
+        \item Impact: Discuss ALL 3P's!!!
+        \item Conclusion: Concluding remarks on your experience throughout this project, as well as the EE-1100 course/lab. What worked for you? What you would change? What (in your own words) did this course/project teach you? 
+        \item Appendix: WELL COMMENTED CODE. Also your beautifully curated, digitally-drawn circuit schematic!
+        \item References: At least 2 references to sources you used for this project. Use IEEE citation formatting.
+    \end{itemize}
+    \item Make sure to be consistent with indents, spacing, and fonts.
+    \item Number your pages, figures, tables, and equations (LaTeX is REALLY good at this :) ).
+\end{enumerate}
+
+\section{Demonstration}
+\hspace{10mm} There will be a number of judges from the UVM ECE Department, as well as the undergraduate class for which you will demonstrate your work to. This will occur during your final exam slot.
+\begin{enumerate}
+    \item BRING A HARD COPY OF YOUR REPORT!!!!!!!!!!!!!!!
+    \item Dress nice, this is a professional showing of your hard work!
+    \item Show what your work does, it is HIGHLY encouraged to record a video of the prototype's operation as a backup.
+    \item Explain what problem your project solves / what need it fulfills. 
+    \item Be prepared to answer questions the judges have. This is your chance to flex how much you have learned this semester!
+\end{enumerate}
+
+\end{document}

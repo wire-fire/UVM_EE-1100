@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc} % Allows < and > in text
+
+\title{EE-1100 Rubric}
+\author{Rev.1: EE-1100 TAs Jack McTasney and Erik Simkins \\ Rev.2: EE-1100 TA Jack McTasney}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Title Page (10 pts.)}
+\begin{itemize}
+    \item Create a title page with the project name, your name (partner names if applicable), date of lab and date of report submission
+\end{itemize}
+\section{Abstract (10 pts.)}
+\begin{itemize}
+    \item Summarize your results in a BRIEF paragraph.
+\end{itemize}
+\section{Table of Contents (10 pts.)}
+\begin{itemize}
+    \item Table of Contents of the sections in your report (with corresponding page numbers).
+\end{itemize}
+\section{Introduction (10 pts.)}
+\begin{itemize}
+    \item Provide background on the topics referenced/used in the report
+    \item Introduce the topic of the report
+    \item Follow notation guidelines in the template (third-person writing, units, etc.)
+\end{itemize}
+\section{System Diagram (10 pts.)}
+\begin{itemize}
+    \item Digitally drawn high-level diagram of your system. Show your inputs and outputs and how they correspond to the parts of your project.
+\end{itemize}
+\section{Plan/Process/Results (20 pts.)}
+\begin{itemize}
+    \item Describe the plan you/your group came up with for getting the project done on time.
+    \item Discuss your design process, highlight key decisions you made 
+    \item Talk about challenges you encountered and your process of overcoming them.
+    \item Discuss the results of your prototype.
+    \item Figures must be numbered, captioned, and referenced in-text.
+    \item You MUST use units when appropriate!
+    \item Include equations where appropriate.
+    \item Digitally drawn circuit schematic is REQUIRED.
+\end{itemize}
+
+\section{Impact/Conclusion (10pts.)}
+\begin{itemize}
+  \item Describe the impact of your design choices on People, Profits, and the Planet (3P's)
+  \item Discuss lessons you learned while overcoming the challenges you faced in the project/course.
+  \item Discuss any closing remarks on the report and the EE-1100 course.
+\end{itemize}
+\section{Appendix/References (10 pts.)}
+\begin{itemize}
+    \item Your code must be included (if programmed devices are used)
+    \item Comments should be present in a legible fashion
+    \item Code should run and work on the device it is uploaded to
+    \item Figures must be numbered and captioned
+    \item References must be in IEEE format
+\end{itemize}
+\section{Judge Input (10 pts.)}
+\begin{itemize}
+    \item Explain your project to the judges in a legible fashion!
+    \item Practice some questions you expect to be asked beforehand for easy responses!
+\end{itemize}
+\end{document}
