@@ -1,5 +1,5 @@
 # UVM_EE-1100
-Lesson plans, code, and instructions for the UVM's EE-1100 course
+Lesson plans, code, and instructions for UVM's EE-1100 course
 ## Code
 <br/>Code that can be used with labs 6 and 7, along with code for bluetooth connection with HM-10 modules for final projects (if students are interested).
 ## Lesson_Slides
