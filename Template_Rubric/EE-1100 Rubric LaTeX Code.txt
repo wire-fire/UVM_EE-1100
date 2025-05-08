@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[T1]{fontenc} % Allows < and > in text
+
+\title{EE-1100 Rubric}
+\author{Rev.1: EE-1100 TAs Jack McTasney and Erik Simkins \\ Rev.2: EE-1100 TA Jack McTasney}
+\date{2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Title Page (10 pts.)}
+\begin{itemize}
+    \item Create a title page with the project name, your name (partner names if applicable), date of lab and date of report submission
+\end{itemize}
+\section{Abstract/Introduction (10 pts.)}
+\begin{itemize}
+    \item Provide background on the topics referenced/used in the report
+    \item Introduce the topic of the report
+    \item Follow notation guidleines in the template (third-person writing, units, etc.)
+\end{itemize}
+\section{Equations (10 pts.)}
+\begin{itemize}
+    \item Use appropriate IEEE style equation styling (LaTeX makes this REALLY easy!)
+\end{itemize}
+\section{Process (50 pts.)}
+\begin{itemize}
+    \item Discuss your design process, highlight key decisions you made 
+    \item Talk about challenges you encountered and how you overcame them
+    \item You MUST use units when appropriate!
+    \item Be sure to include a picture of your digitally drawn circuit schematic!!!
+\end{itemize}
+
+\section{Impact/Conclusion (10pts.)}
+\begin{itemize}
+  \item Discuss the impact of your design choices on People, Profits, and the Planet (3P's)
+  \item Discuss any closing remarks on the report, this is the last thing the reader sees in your report!
+\end{itemize}
+\section{Code (10 pts.)}
+\begin{itemize}
+    \item Comments should be present in a legible fashion
+    \item Code should run and work on the device it is uploaded to
+    \item Code should be at the end of your report, after the conclusion
+\end{itemize}
+\end{document}
