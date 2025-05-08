@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}  % For including images
+\usepackage{amsmath}   % For math symbols
+\usepackage{float}     % For positioning figures
+\usepackage{caption}   % For customizing captions
+\usepackage{siunitx}   % For SI units
+\usepackage{geometry}  % For setting margins
+\usepackage{fancyhdr}
+\geometry{a4paper, margin=1in}
+\usepackage{pdfpages}
+\usepackage{caption} % Add this line to your preamble
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Title page settings
+\title{Project Name}
+\author{Your Name\\Parteners name}
+
+\date{}
+\pagestyle{fancy}
+\fancyhf{}  % Clear all header and footer fields
+\fancyfoot[L]{\thepage} 
+\begin{document}
+
+% Title Page
+\pagenumbering{gobble}
+\maketitle
+\begin{center}
+
+Date of Lab: \date{Date Here} \\  % Add the date of the lab here
+
+Date of Report:
+\date{\today}
+\newpage
+\end{center}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+% Abstract
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+This report outlines process and impact of...\\ 250 Words maximum (probably much less for EE1100)\\
+For the entire report avoid first-person "I" or "we".\\
+Avoid vague phrases and redundant or unnecessary information.\\
+Be consistent with units, do not say "An $R_A$ of 
+1000\textbf{Ohms} and $R_B$ of \textbf{5k$\Omega$}."\\
+
+
+
+
+% Introduction
+\section*{Introduction}
+Background information and purpose. What did you do, what did you use. Clearly state the objective or goal of the Lab.
+
+\subsection*{Equations}
+% Example Equations
+\begin{align}
+    I_{DS}(Sat) &= K_n(V_{gs} - V_{tn})^2 \\
+    V &= I*R 
+\end{align}
+
+
+% Results
+\section*{Process}
+Where did you start, and how did you get to your goal.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Upload_Schematic_Here.png} % Add a circuit diagram here
+    \caption{Describe whats in here, and what value it has in your report.}
+    \label{fig:name_to_reference}
+\end{figure}
+% You can reference an image in latex with: in Figure  \ref{fig:name_to_reference}.
+
+\section*{Impact}
+What value does this circuit have.\\
+PPP-(People Profit Planet)
+
+\section*{Conclusion}
+Restate your goal and include a brief overview of how you got there. Mention any problems, difficulties or discrepancies.
+
+\subsection*{Code}
+
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codeblue}{rgb}{0.0,0.47,0.68}
+\definecolor{codeorange}{rgb}{0.8,0.33,0.0}
+
+\lstdefinestyle{arduino}{
+    language=C++,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{codeblue}\bfseries,
+    commentstyle=\color{codegray},
+    stringstyle=\color{codegray},
+    morekeywords=[2]{setup, loop, pinMode, digitalWrite, digitalRead, analogRead, analogWrite, delay, millis, micros, HIGH, LOW, INPUT, OUTPUT},
+    keywordstyle=[2]\color{codeorange},
+    breaklines=true,
+    showstringspaces=false
+}
+
+\begin{lstlisting}[style=arduino]
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+\end{lstlisting}
+
+\end{document}
