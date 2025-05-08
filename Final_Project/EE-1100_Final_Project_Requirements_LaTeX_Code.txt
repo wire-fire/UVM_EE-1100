@@ -35,7 +35,7 @@
         \item Results: Show off your prototype.  Provide data showing that it does what you want it to do. Talk about specifications relevant to the prototype's purpose.
         \item Impact: Discuss ALL 3P's!!!
         \item Conclusion: Concluding remarks on your experience throughout this project, as well as the EE-1100 course/lab. What worked for you? What you would change? What (in your own words) did this course/project teach you? 
-        \item Appendix: WELL COMMENTED CODE. Also your beautifully curated, digitally-drawn circuit schematic!
+        \item Appendix: WELL COMMENTED CODE, and any figures you want to reference that don't make sense to put into the text of the report.
         \item References: At least 2 references to sources you used for this project. Use IEEE citation formatting.
     \end{itemize}
     \item Make sure to be consistent with indents, spacing, and fonts.
