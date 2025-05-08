@@ -5,6 +5,6 @@ Lesson plans, code, and instructions for UVM's EE-1100 course
 ## Lesson_Slides
 <br/>Slide decks for each lab in the EE-1100 course. These should be edited when needed, especially the office hours slides.
 ## Template_Rubric
-<br/>The report template and rubric that can be used for any of the labs/design challenges. Includes LaTeX code that created the template and rubric .pdf files.
+<br/>The report template and rubric that can be used for any of the labs/design challenges. Includes LaTeX code that created the template and rubric .pdf files. If used for labs without code, add the points for the code section to the process section.
 ## Final_Project
 <br/>The requirements and rubric for the final project
