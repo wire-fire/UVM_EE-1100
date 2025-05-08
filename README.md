@@ -5,4 +5,4 @@ Lesson plans, code, and instructions for the EE-1100 course
 ## Lesson_Slides
 <br/>Slide decks for each lab in the EE-1100 course. These should be edited when needed, especially the office hours slides.
 ## Template_Rubric
-<br/>The report template and rubric that can be used for any of the labs/design challenges. Includes LaTeX code that created the template .pdf.
+<br/>The report template and rubric that can be used for any of the labs/design challenges. Includes LaTeX code that created the template and rubric .pdf files.
