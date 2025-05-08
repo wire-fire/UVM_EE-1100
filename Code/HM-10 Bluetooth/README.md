@@ -8,3 +8,7 @@
 <br/>4) Write AT+IMME1 to both modules, this will disable connections until an AT+START command is issued to the peripheral.
 <br/>5) From the central module, send a connection command (see AT+CO in the datasheet) with the peripheral's MAC address
 <br/>With 2 functioning modules, this should result in the 2 bluetooth modules being connected. Now data can be sent via UART between them!
+## SEED_Controller_V3_Trim.ino
+<br/>Code for a transmitter controller to interface with UVM 2024->2025 SEED Team 24's AWGR project. Included to reference Bluetooth transmission code and the code that structures a packet of data to send.
+## SEED_Robot_Receiver_V3_Serial.ino
+<br/>Code for UVM 2024->2025 SEED Team 24's AWGR bluetooth receiver. Included to reference Bluetooth receiving code, as well as the code to pull data from a sent packet and interpret it for numerical usage.
